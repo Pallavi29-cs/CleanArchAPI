@@ -1,0 +1,822 @@
+2026-06-04 06:05:49.639 +05:30 [INF] CleanArch API started on Development
+2026-06-04 06:05:49.905 +05:30 [INF] User profile is available. Using 'C:\Users\phData\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-06-04 06:05:50.803 +05:30 [INF] Now listening on: https://localhost:62546
+2026-06-04 06:05:50.812 +05:30 [INF] Now listening on: http://localhost:62547
+2026-06-04 06:05:51.034 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-06-04 06:05:51.040 +05:30 [INF] Hosting environment: Development
+2026-06-04 06:05:51.048 +05:30 [INF] Content root path: C:\Users\phData\Downloads\CleanArchAPI_Final_v3\CleanArchFinal\CleanArchAPI.API
+2026-06-04 06:05:52.752 +05:30 [INF] Request starting HTTP/2 GET https://localhost:62546/ - null null
+2026-06-04 06:05:53.390 +05:30 [INF] Request finished HTTP/2 GET https://localhost:62546/ - 301 null null 656.4804ms
+2026-06-04 06:05:53.406 +05:30 [INF] Request starting HTTP/2 GET https://localhost:62546/index.html - null null
+2026-06-04 06:05:53.661 +05:30 [INF] Request starting HTTP/2 GET https://localhost:62546/swagger-ui.css - null null
+2026-06-04 06:05:53.696 +05:30 [INF] Request starting HTTP/2 GET https://localhost:62546/_framework/aspnetcore-browser-refresh.js - null null
+2026-06-04 06:05:53.663 +05:30 [INF] Request starting HTTP/2 GET https://localhost:62546/swagger-ui-standalone-preset.js - null null
+2026-06-04 06:05:53.700 +05:30 [INF] Request finished HTTP/2 GET https://localhost:62546/index.html - 200 null text/html;charset=utf-8 294.7619ms
+2026-06-04 06:05:53.758 +05:30 [INF] Request finished HTTP/2 GET https://localhost:62546/_framework/aspnetcore-browser-refresh.js - 200 14937 application/javascript; charset=utf-8 68.8731ms
+2026-06-04 06:05:53.663 +05:30 [INF] Request starting HTTP/2 GET https://localhost:62546/swagger-ui-bundle.js - null null
+2026-06-04 06:05:53.689 +05:30 [INF] Request starting HTTP/2 GET https://localhost:62546/_vs/browserLink - null null
+2026-06-04 06:05:53.816 +05:30 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2026-06-04 06:05:53.815 +05:30 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2026-06-04 06:05:53.943 +05:30 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2026-06-04 06:05:53.957 +05:30 [INF] Request finished HTTP/2 GET https://localhost:62546/swagger-ui-standalone-preset.js - 200 312163 text/javascript 295.8995ms
+2026-06-04 06:05:53.964 +05:30 [INF] Request finished HTTP/2 GET https://localhost:62546/swagger-ui.css - 200 144929 text/css 303.4941ms
+2026-06-04 06:05:53.994 +05:30 [INF] Request finished HTTP/2 GET https://localhost:62546/swagger-ui-bundle.js - 200 1061536 text/javascript 333.5324ms
+2026-06-04 06:05:54.216 +05:30 [INF] Request finished HTTP/2 GET https://localhost:62546/_vs/browserLink - 200 null text/javascript; charset=UTF-8 526.9866ms
+2026-06-04 06:05:54.508 +05:30 [INF] Request starting HTTP/2 GET https://localhost:62546/swagger/v1/swagger.json - null null
+2026-06-04 06:05:54.542 +05:30 [INF] Request starting HTTP/2 GET https://localhost:62546/favicon-32x32.png - null null
+2026-06-04 06:05:55.049 +05:30 [INF] Request finished HTTP/2 GET https://localhost:62546/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 541.254ms
+2026-06-04 06:05:55.173 +05:30 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2026-06-04 06:05:55.203 +05:30 [INF] Request finished HTTP/2 GET https://localhost:62546/favicon-32x32.png - 200 628 image/png 661.8462ms
+2026-06-04 06:06:49.653 +05:30 [INF] Request starting HTTP/2 POST https://localhost:62546/api/Auth/login - application/json 57
+2026-06-04 06:06:49.997 +05:30 [INF] Executing endpoint 'CleanArchAPI.API.Controllers.AuthController.Login (CleanArchAPI.API)'
+2026-06-04 06:06:50.091 +05:30 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(CleanArchAPI.Common.DTOs.LoginRequest) on controller CleanArchAPI.API.Controllers.AuthController (CleanArchAPI.API).
+2026-06-04 06:06:50.216 +05:30 [INF] Login attempt: admin@test.com
+2026-06-04 06:06:54.286 +05:30 [INF] Executing OkObjectResult, writing value of type 'CleanArchAPI.Common.Models.ApiResponse`1[[CleanArchAPI.Common.DTOs.LoginResponse, CleanArchAPI.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-06-04 06:06:54.352 +05:30 [INF] Executed action CleanArchAPI.API.Controllers.AuthController.Login (CleanArchAPI.API) in 4225.018ms
+2026-06-04 06:06:54.359 +05:30 [INF] Executed endpoint 'CleanArchAPI.API.Controllers.AuthController.Login (CleanArchAPI.API)'
+2026-06-04 06:06:54.371 +05:30 [INF] HTTP POST /api/Auth/login responded 200 in 4681.4292 ms
+2026-06-04 06:06:54.380 +05:30 [INF] Request finished HTTP/2 POST https://localhost:62546/api/Auth/login - 200 null application/json; charset=utf-8 4730.0702ms
+2026-06-04 06:09:21.559 +05:30 [INF] Request starting HTTP/2 POST https://localhost:62546/api/Users - application/json 117
+2026-06-04 06:09:21.814 +05:30 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenSignatureKeyNotFoundException: IDX10503: Signature validation failed. Token does not have a kid. Keys tried: '[PII of type 'System.Text.StringBuilder' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. Number of keys in TokenValidationParameters: '1'. 
+Number of keys in Configuration: '0'. 
+Exceptions caught:
+ '[PII of type 'System.Text.StringBuilder' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII of type 'Microsoft.IdentityModel.JsonWebTokens.JsonWebToken' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. See https://aka.ms/IDX10503 for details.
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateSignature(JsonWebToken jwtToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateSignatureAndIssuerSecurityKey(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+2026-06-04 06:09:21.826 +05:30 [INF] Bearer was not authenticated. Failure message: IDX10503: Signature validation failed. Token does not have a kid. Keys tried: '[PII of type 'System.Text.StringBuilder' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. Number of keys in TokenValidationParameters: '1'. 
+Number of keys in Configuration: '0'. 
+Exceptions caught:
+ '[PII of type 'System.Text.StringBuilder' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII of type 'Microsoft.IdentityModel.JsonWebTokens.JsonWebToken' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. See https://aka.ms/IDX10503 for details.
+2026-06-04 06:09:21.851 +05:30 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Admin)
+2026-06-04 06:09:21.873 +05:30 [INF] AuthenticationScheme: Bearer was challenged.
+2026-06-04 06:09:21.878 +05:30 [INF] HTTP POST /api/Users responded 401 in 288.5864 ms
+2026-06-04 06:09:21.886 +05:30 [INF] Request finished HTTP/2 POST https://localhost:62546/api/Users - 401 0 null 333.9687ms
+2026-06-04 06:09:30.416 +05:30 [INF] Request starting HTTP/2 POST https://localhost:62546/api/Users - application/json 115
+2026-06-04 06:09:30.459 +05:30 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenSignatureKeyNotFoundException: IDX10503: Signature validation failed. Token does not have a kid. Keys tried: '[PII of type 'System.Text.StringBuilder' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. Number of keys in TokenValidationParameters: '1'. 
+Number of keys in Configuration: '0'. 
+Exceptions caught:
+ '[PII of type 'System.Text.StringBuilder' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII of type 'Microsoft.IdentityModel.JsonWebTokens.JsonWebToken' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. See https://aka.ms/IDX10503 for details.
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateSignature(JsonWebToken jwtToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateSignatureAndIssuerSecurityKey(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+2026-06-04 06:09:30.470 +05:30 [INF] Bearer was not authenticated. Failure message: IDX10503: Signature validation failed. Token does not have a kid. Keys tried: '[PII of type 'System.Text.StringBuilder' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. Number of keys in TokenValidationParameters: '1'. 
+Number of keys in Configuration: '0'. 
+Exceptions caught:
+ '[PII of type 'System.Text.StringBuilder' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII of type 'Microsoft.IdentityModel.JsonWebTokens.JsonWebToken' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. See https://aka.ms/IDX10503 for details.
+2026-06-04 06:09:30.478 +05:30 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Admin)
+2026-06-04 06:09:30.483 +05:30 [INF] AuthenticationScheme: Bearer was challenged.
+2026-06-04 06:09:30.488 +05:30 [INF] HTTP POST /api/Users responded 401 in 47.5731 ms
+2026-06-04 06:09:30.496 +05:30 [INF] Request finished HTTP/2 POST https://localhost:62546/api/Users - 401 0 null 80.3537ms
+2026-06-04 06:09:40.338 +05:30 [INF] Request starting HTTP/2 GET https://localhost:62546/index.html - null null
+2026-06-04 06:09:40.385 +05:30 [INF] Request finished HTTP/2 GET https://localhost:62546/index.html - 200 null text/html;charset=utf-8 49.0107ms
+2026-06-04 06:09:40.414 +05:30 [INF] Request starting HTTP/2 GET https://localhost:62546/_vs/browserLink - null null
+2026-06-04 06:09:40.414 +05:30 [INF] Request starting HTTP/2 GET https://localhost:62546/_framework/aspnetcore-browser-refresh.js - null null
+2026-06-04 06:09:40.507 +05:30 [INF] Request finished HTTP/2 GET https://localhost:62546/_framework/aspnetcore-browser-refresh.js - 200 14937 application/javascript; charset=utf-8 92.8563ms
+2026-06-04 06:09:40.548 +05:30 [INF] Request finished HTTP/2 GET https://localhost:62546/_vs/browserLink - 200 null text/javascript; charset=UTF-8 133.8083ms
+2026-06-04 06:09:40.822 +05:30 [INF] Request starting HTTP/2 GET https://localhost:62546/swagger/v1/swagger.json - null null
+2026-06-04 06:09:40.886 +05:30 [INF] Request finished HTTP/2 GET https://localhost:62546/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 64.7851ms
+2026-06-04 06:12:24.777 +05:30 [INF] Request starting HTTP/2 POST https://localhost:62546/api/Auth/login - application/json 57
+2026-06-04 06:12:24.816 +05:30 [INF] Executing endpoint 'CleanArchAPI.API.Controllers.AuthController.Login (CleanArchAPI.API)'
+2026-06-04 06:12:24.820 +05:30 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(CleanArchAPI.Common.DTOs.LoginRequest) on controller CleanArchAPI.API.Controllers.AuthController (CleanArchAPI.API).
+2026-06-04 06:12:24.832 +05:30 [INF] Login attempt: admin@test.com
+2026-06-04 06:12:25.339 +05:30 [INF] Executing OkObjectResult, writing value of type 'CleanArchAPI.Common.Models.ApiResponse`1[[CleanArchAPI.Common.DTOs.LoginResponse, CleanArchAPI.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-06-04 06:12:25.344 +05:30 [INF] Executed action CleanArchAPI.API.Controllers.AuthController.Login (CleanArchAPI.API) in 516.6575ms
+2026-06-04 06:12:25.350 +05:30 [INF] Executed endpoint 'CleanArchAPI.API.Controllers.AuthController.Login (CleanArchAPI.API)'
+2026-06-04 06:12:25.353 +05:30 [INF] HTTP POST /api/Auth/login responded 200 in 538.5729 ms
+2026-06-04 06:12:25.360 +05:30 [INF] Request finished HTTP/2 POST https://localhost:62546/api/Auth/login - 200 null application/json; charset=utf-8 585.0823ms
+2026-06-04 09:28:43.112 +05:30 [INF] CleanArch API started on Development
+2026-06-04 09:28:43.277 +05:30 [INF] User profile is available. Using 'C:\Users\phData\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-06-04 09:28:43.770 +05:30 [INF] Now listening on: https://localhost:62546
+2026-06-04 09:28:43.772 +05:30 [INF] Now listening on: http://localhost:62547
+2026-06-04 09:28:43.863 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-06-04 09:28:43.866 +05:30 [INF] Hosting environment: Development
+2026-06-04 09:28:43.868 +05:30 [INF] Content root path: C:\Users\phData\Downloads\CleanArchAPI_Final_v3\CleanArchFinal\CleanArchAPI.API
+2026-06-04 09:28:44.807 +05:30 [INF] Request starting HTTP/2 GET https://localhost:62546/index.html - null null
+2026-06-04 09:28:45.344 +05:30 [INF] Request starting HTTP/2 GET https://localhost:62546/_vs/browserLink - null null
+2026-06-04 09:28:45.344 +05:30 [INF] Request starting HTTP/2 GET https://localhost:62546/_framework/aspnetcore-browser-refresh.js - null null
+2026-06-04 09:28:45.361 +05:30 [INF] Request finished HTTP/2 GET https://localhost:62546/index.html - 200 null text/html;charset=utf-8 563.4014ms
+2026-06-04 09:28:45.388 +05:30 [INF] Request finished HTTP/2 GET https://localhost:62546/_framework/aspnetcore-browser-refresh.js - 200 14937 application/javascript; charset=utf-8 43.1174ms
+2026-06-04 09:28:45.502 +05:30 [INF] Request finished HTTP/2 GET https://localhost:62546/_vs/browserLink - 200 null text/javascript; charset=UTF-8 157.9698ms
+2026-06-04 09:28:45.565 +05:30 [INF] Request starting HTTP/2 GET https://localhost:62546/swagger/v1/swagger.json - null null
+2026-06-04 09:28:45.647 +05:30 [INF] Request finished HTTP/2 GET https://localhost:62546/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 82.5322ms
+2026-06-04 09:35:55.688 +05:30 [INF] Request starting HTTP/2 POST https://localhost:62546/api/Auth/login - application/json 57
+2026-06-04 09:35:55.790 +05:30 [INF] Executing endpoint 'CleanArchAPI.API.Controllers.AuthController.Login (CleanArchAPI.API)'
+2026-06-04 09:35:55.813 +05:30 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(CleanArchAPI.Common.DTOs.LoginRequest) on controller CleanArchAPI.API.Controllers.AuthController (CleanArchAPI.API).
+2026-06-04 09:35:55.851 +05:30 [INF] Login attempt: admin@test.com
+2026-06-04 09:35:57.083 +05:30 [INF] Executing OkObjectResult, writing value of type 'CleanArchAPI.Common.Models.ApiResponse`1[[CleanArchAPI.Common.DTOs.LoginResponse, CleanArchAPI.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-06-04 09:35:57.098 +05:30 [INF] Executed action CleanArchAPI.API.Controllers.AuthController.Login (CleanArchAPI.API) in 1275.6582ms
+2026-06-04 09:35:57.101 +05:30 [INF] Executed endpoint 'CleanArchAPI.API.Controllers.AuthController.Login (CleanArchAPI.API)'
+2026-06-04 09:35:57.106 +05:30 [INF] HTTP POST /api/Auth/login responded 200 in 1395.2486 ms
+2026-06-04 09:35:57.110 +05:30 [INF] Request finished HTTP/2 POST https://localhost:62546/api/Auth/login - 200 null application/json; charset=utf-8 1422.5044ms
+2026-06-04 09:45:35.334 +05:30 [INF] Request starting HTTP/2 POST https://localhost:62546/api/Users - application/json 115
+2026-06-04 09:45:35.486 +05:30 [INF] Executing endpoint 'CleanArchAPI.API.Controllers.UsersController.Create (CleanArchAPI.API)'
+2026-06-04 09:45:35.499 +05:30 [INF] Route matched with {action = "Create", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Create(CleanArchAPI.Common.DTOs.CreateUserRequest) on controller CleanArchAPI.API.Controllers.UsersController (CleanArchAPI.API).
+2026-06-04 09:45:36.326 +05:30 [INF] Executed action CleanArchAPI.API.Controllers.UsersController.Create (CleanArchAPI.API) in 820.7439ms
+2026-06-04 09:45:36.334 +05:30 [INF] Executed endpoint 'CleanArchAPI.API.Controllers.UsersController.Create (CleanArchAPI.API)'
+2026-06-04 09:45:36.339 +05:30 [ERR] HTTP POST /api/Users responded 500 in 972.7472 ms
+Microsoft.Data.SqlClient.SqlException (0x80131904): Email already exists.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__195_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Dapper.SqlMapper.QueryRowAsync[T](IDbConnection cnn, Row row, Type effectiveType, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 489
+   at CleanArchAPI.Data.Implementations.UserRepository.CreateAsync(CreateUserRequest request, String createdBy) in C:\Users\phData\Downloads\CleanArchAPI_Final_v3\CleanArchFinal\CleanArchAPI.Data\Implementations\Repositories.cs:line 51
+   at CleanArchAPI.API.Controllers.UsersController.Create(CreateUserRequest request) in C:\Users\phData\Downloads\CleanArchAPI_Final_v3\CleanArchFinal\CleanArchAPI.API\Controllers\Controllers.cs:line 93
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+ClientConnectionId:eb36dad5-92f1-4680-89e3-e55e29a33c91
+Error Number:50000,State:1,Class:16
+2026-06-04 09:45:36.800 +05:30 [ERR] Unhandled exception. Path: /api/Users
+Microsoft.Data.SqlClient.SqlException (0x80131904): Email already exists.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__195_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Dapper.SqlMapper.QueryRowAsync[T](IDbConnection cnn, Row row, Type effectiveType, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 489
+   at CleanArchAPI.Data.Implementations.UserRepository.CreateAsync(CreateUserRequest request, String createdBy) in C:\Users\phData\Downloads\CleanArchAPI_Final_v3\CleanArchFinal\CleanArchAPI.Data\Implementations\Repositories.cs:line 51
+   at CleanArchAPI.API.Controllers.UsersController.Create(CreateUserRequest request) in C:\Users\phData\Downloads\CleanArchAPI_Final_v3\CleanArchFinal\CleanArchAPI.API\Controllers\Controllers.cs:line 93
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at CleanArchAPI.API.Middleware.ExceptionMiddleware.InvokeAsync(HttpContext context) in C:\Users\phData\Downloads\CleanArchAPI_Final_v3\CleanArchFinal\CleanArchAPI.API\Middleware\ExceptionMiddleware.cs:line 27
+ClientConnectionId:eb36dad5-92f1-4680-89e3-e55e29a33c91
+Error Number:50000,State:1,Class:16
+2026-06-04 09:45:36.834 +05:30 [INF] Request finished HTTP/2 POST https://localhost:62546/api/Users - 500 null application/json 1510.9595ms
+2026-06-04 09:46:47.724 +05:30 [INF] Request starting HTTP/2 POST https://localhost:62546/api/Users - application/json 115
+2026-06-04 09:46:47.759 +05:30 [INF] Executing endpoint 'CleanArchAPI.API.Controllers.UsersController.Create (CleanArchAPI.API)'
+2026-06-04 09:46:47.762 +05:30 [INF] Route matched with {action = "Create", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Create(CleanArchAPI.Common.DTOs.CreateUserRequest) on controller CleanArchAPI.API.Controllers.UsersController (CleanArchAPI.API).
+2026-06-04 09:46:48.153 +05:30 [INF] Executed action CleanArchAPI.API.Controllers.UsersController.Create (CleanArchAPI.API) in 385.0689ms
+2026-06-04 09:46:48.158 +05:30 [INF] Executed endpoint 'CleanArchAPI.API.Controllers.UsersController.Create (CleanArchAPI.API)'
+2026-06-04 09:46:48.161 +05:30 [ERR] HTTP POST /api/Users responded 500 in 410.1768 ms
+Microsoft.Data.SqlClient.SqlException (0x80131904): Email already exists.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__195_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Dapper.SqlMapper.QueryRowAsync[T](IDbConnection cnn, Row row, Type effectiveType, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 489
+   at CleanArchAPI.Data.Implementations.UserRepository.CreateAsync(CreateUserRequest request, String createdBy) in C:\Users\phData\Downloads\CleanArchAPI_Final_v3\CleanArchFinal\CleanArchAPI.Data\Implementations\Repositories.cs:line 51
+   at CleanArchAPI.API.Controllers.UsersController.Create(CreateUserRequest request) in C:\Users\phData\Downloads\CleanArchAPI_Final_v3\CleanArchFinal\CleanArchAPI.API\Controllers\Controllers.cs:line 93
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+ClientConnectionId:eb36dad5-92f1-4680-89e3-e55e29a33c91
+Error Number:50000,State:1,Class:16
+2026-06-04 09:46:48.333 +05:30 [ERR] Unhandled exception. Path: /api/Users
+Microsoft.Data.SqlClient.SqlException (0x80131904): Email already exists.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__195_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Dapper.SqlMapper.QueryRowAsync[T](IDbConnection cnn, Row row, Type effectiveType, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 489
+   at CleanArchAPI.Data.Implementations.UserRepository.CreateAsync(CreateUserRequest request, String createdBy) in C:\Users\phData\Downloads\CleanArchAPI_Final_v3\CleanArchFinal\CleanArchAPI.Data\Implementations\Repositories.cs:line 51
+   at CleanArchAPI.API.Controllers.UsersController.Create(CreateUserRequest request) in C:\Users\phData\Downloads\CleanArchAPI_Final_v3\CleanArchFinal\CleanArchAPI.API\Controllers\Controllers.cs:line 93
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at CleanArchAPI.API.Middleware.ExceptionMiddleware.InvokeAsync(HttpContext context) in C:\Users\phData\Downloads\CleanArchAPI_Final_v3\CleanArchFinal\CleanArchAPI.API\Middleware\ExceptionMiddleware.cs:line 27
+ClientConnectionId:eb36dad5-92f1-4680-89e3-e55e29a33c91
+Error Number:50000,State:1,Class:16
+2026-06-04 09:46:48.355 +05:30 [INF] Request finished HTTP/2 POST https://localhost:62546/api/Users - 500 null application/json 631.3268ms
+2026-06-04 09:47:24.411 +05:30 [INF] Request starting HTTP/2 POST https://localhost:62546/api/Users - application/json 137
+2026-06-04 09:47:24.443 +05:30 [INF] Executing endpoint 'CleanArchAPI.API.Controllers.UsersController.Create (CleanArchAPI.API)'
+2026-06-04 09:47:24.445 +05:30 [INF] Route matched with {action = "Create", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Create(CleanArchAPI.Common.DTOs.CreateUserRequest) on controller CleanArchAPI.API.Controllers.UsersController (CleanArchAPI.API).
+2026-06-04 09:47:24.832 +05:30 [INF] Executed action CleanArchAPI.API.Controllers.UsersController.Create (CleanArchAPI.API) in 382.7812ms
+2026-06-04 09:47:24.836 +05:30 [INF] Executed endpoint 'CleanArchAPI.API.Controllers.UsersController.Create (CleanArchAPI.API)'
+2026-06-04 09:47:24.840 +05:30 [ERR] HTTP POST /api/Users responded 500 in 402.5953 ms
+Microsoft.Data.SqlClient.SqlException (0x80131904): Email already exists.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__195_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Dapper.SqlMapper.QueryRowAsync[T](IDbConnection cnn, Row row, Type effectiveType, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 489
+   at CleanArchAPI.Data.Implementations.UserRepository.CreateAsync(CreateUserRequest request, String createdBy) in C:\Users\phData\Downloads\CleanArchAPI_Final_v3\CleanArchFinal\CleanArchAPI.Data\Implementations\Repositories.cs:line 51
+   at CleanArchAPI.API.Controllers.UsersController.Create(CreateUserRequest request) in C:\Users\phData\Downloads\CleanArchAPI_Final_v3\CleanArchFinal\CleanArchAPI.API\Controllers\Controllers.cs:line 93
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+ClientConnectionId:eb36dad5-92f1-4680-89e3-e55e29a33c91
+Error Number:50000,State:1,Class:16
+2026-06-04 09:47:24.995 +05:30 [ERR] Unhandled exception. Path: /api/Users
+Microsoft.Data.SqlClient.SqlException (0x80131904): Email already exists.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__195_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Dapper.SqlMapper.QueryRowAsync[T](IDbConnection cnn, Row row, Type effectiveType, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 489
+   at CleanArchAPI.Data.Implementations.UserRepository.CreateAsync(CreateUserRequest request, String createdBy) in C:\Users\phData\Downloads\CleanArchAPI_Final_v3\CleanArchFinal\CleanArchAPI.Data\Implementations\Repositories.cs:line 51
+   at CleanArchAPI.API.Controllers.UsersController.Create(CreateUserRequest request) in C:\Users\phData\Downloads\CleanArchAPI_Final_v3\CleanArchFinal\CleanArchAPI.API\Controllers\Controllers.cs:line 93
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at CleanArchAPI.API.Middleware.ExceptionMiddleware.InvokeAsync(HttpContext context) in C:\Users\phData\Downloads\CleanArchAPI_Final_v3\CleanArchFinal\CleanArchAPI.API\Middleware\ExceptionMiddleware.cs:line 27
+ClientConnectionId:eb36dad5-92f1-4680-89e3-e55e29a33c91
+Error Number:50000,State:1,Class:16
+2026-06-04 09:47:25.012 +05:30 [INF] Request finished HTTP/2 POST https://localhost:62546/api/Users - 500 null application/json 602.6914ms
+2026-06-04 09:56:50.885 +05:30 [INF] CleanArch API started on Development
+2026-06-04 09:56:51.048 +05:30 [INF] User profile is available. Using 'C:\Users\phData\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-06-04 09:56:51.437 +05:30 [INF] Now listening on: https://localhost:62546
+2026-06-04 09:56:51.439 +05:30 [INF] Now listening on: http://localhost:62547
+2026-06-04 09:56:51.520 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-06-04 09:56:51.522 +05:30 [INF] Hosting environment: Development
+2026-06-04 09:56:51.524 +05:30 [INF] Content root path: C:\Users\phData\Downloads\CleanArchAPI_Final_v3\CleanArchFinal\CleanArchAPI.API
+2026-06-04 09:56:52.451 +05:30 [INF] Request starting HTTP/2 GET https://localhost:62546/index.html - null null
+2026-06-04 09:56:52.839 +05:30 [INF] Request finished HTTP/2 GET https://localhost:62546/index.html - 200 null text/html;charset=utf-8 399.6872ms
+2026-06-04 09:56:52.843 +05:30 [INF] Request starting HTTP/2 GET https://localhost:62546/_framework/aspnetcore-browser-refresh.js - null null
+2026-06-04 09:56:52.845 +05:30 [INF] Request starting HTTP/2 GET https://localhost:62546/_vs/browserLink - null null
+2026-06-04 09:56:52.877 +05:30 [INF] Request finished HTTP/2 GET https://localhost:62546/_framework/aspnetcore-browser-refresh.js - 200 14937 application/javascript; charset=utf-8 32.9796ms
+2026-06-04 09:56:52.956 +05:30 [INF] Request finished HTTP/2 GET https://localhost:62546/_vs/browserLink - 200 null text/javascript; charset=UTF-8 112.1235ms
+2026-06-04 09:56:53.016 +05:30 [INF] Request starting HTTP/2 GET https://localhost:62546/swagger/v1/swagger.json - null null
+2026-06-04 09:56:53.069 +05:30 [INF] Request finished HTTP/2 GET https://localhost:62546/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 54.3943ms
+2026-06-04 09:57:18.983 +05:30 [INF] Request starting HTTP/2 POST https://localhost:62546/api/Auth/login - application/json 57
+2026-06-04 09:57:19.131 +05:30 [INF] Executing endpoint 'CleanArchAPI.API.Controllers.AuthController.Login (CleanArchAPI.API)'
+2026-06-04 09:57:19.173 +05:30 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(CleanArchAPI.Common.DTOs.LoginRequest) on controller CleanArchAPI.API.Controllers.AuthController (CleanArchAPI.API).
+2026-06-04 09:57:19.216 +05:30 [INF] Login attempt: admin@test.com
+2026-06-04 09:57:20.470 +05:30 [INF] Executing OkObjectResult, writing value of type 'CleanArchAPI.Common.Models.ApiResponse`1[[CleanArchAPI.Common.DTOs.LoginResponse, CleanArchAPI.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-06-04 09:57:20.494 +05:30 [INF] Executed action CleanArchAPI.API.Controllers.AuthController.Login (CleanArchAPI.API) in 1310.7626ms
+2026-06-04 09:57:20.499 +05:30 [INF] Executed endpoint 'CleanArchAPI.API.Controllers.AuthController.Login (CleanArchAPI.API)'
+2026-06-04 09:57:20.504 +05:30 [INF] HTTP POST /api/Auth/login responded 200 in 1493.0395 ms
+2026-06-04 09:57:20.509 +05:30 [INF] Request finished HTTP/2 POST https://localhost:62546/api/Auth/login - 200 null application/json; charset=utf-8 1527.1034ms
+2026-06-04 09:58:31.471 +05:30 [INF] Request starting HTTP/2 POST https://localhost:62546/api/Users - application/json 115
+2026-06-04 09:58:31.548 +05:30 [INF] Executing endpoint 'CleanArchAPI.API.Controllers.UsersController.Create (CleanArchAPI.API)'
+2026-06-04 09:58:31.553 +05:30 [INF] Route matched with {action = "Create", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Create(CleanArchAPI.Common.DTOs.CreateUserRequest) on controller CleanArchAPI.API.Controllers.UsersController (CleanArchAPI.API).
+2026-06-04 09:58:32.082 +05:30 [INF] Executed action CleanArchAPI.API.Controllers.UsersController.Create (CleanArchAPI.API) in 525.9325ms
+2026-06-04 09:58:32.086 +05:30 [INF] Executed endpoint 'CleanArchAPI.API.Controllers.UsersController.Create (CleanArchAPI.API)'
+2026-06-04 09:58:32.089 +05:30 [ERR] HTTP POST /api/Users responded 500 in 606.0708 ms
+Microsoft.Data.SqlClient.SqlException (0x80131904): Email already exists.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__195_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Dapper.SqlMapper.QueryRowAsync[T](IDbConnection cnn, Row row, Type effectiveType, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 489
+   at CleanArchAPI.Data.Implementations.UserRepository.CreateAsync(CreateUserRequest request, String createdBy) in C:\Users\phData\Downloads\CleanArchAPI_Final_v3\CleanArchFinal\CleanArchAPI.Data\Implementations\Repositories.cs:line 51
+   at CleanArchAPI.API.Controllers.UsersController.Create(CreateUserRequest request) in C:\Users\phData\Downloads\CleanArchAPI_Final_v3\CleanArchFinal\CleanArchAPI.API\Controllers\Controllers.cs:line 93
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+ClientConnectionId:1a7e5e64-b50b-4821-8328-a8c188473028
+Error Number:50000,State:1,Class:16
+2026-06-04 09:58:32.270 +05:30 [ERR] Unhandled exception. Path: /api/Users
+Microsoft.Data.SqlClient.SqlException (0x80131904): Email already exists.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__195_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Dapper.SqlMapper.QueryRowAsync[T](IDbConnection cnn, Row row, Type effectiveType, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 489
+   at CleanArchAPI.Data.Implementations.UserRepository.CreateAsync(CreateUserRequest request, String createdBy) in C:\Users\phData\Downloads\CleanArchAPI_Final_v3\CleanArchFinal\CleanArchAPI.Data\Implementations\Repositories.cs:line 51
+   at CleanArchAPI.API.Controllers.UsersController.Create(CreateUserRequest request) in C:\Users\phData\Downloads\CleanArchAPI_Final_v3\CleanArchFinal\CleanArchAPI.API\Controllers\Controllers.cs:line 93
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at CleanArchAPI.API.Middleware.ExceptionMiddleware.InvokeAsync(HttpContext context) in C:\Users\phData\Downloads\CleanArchAPI_Final_v3\CleanArchFinal\CleanArchAPI.API\Middleware\ExceptionMiddleware.cs:line 27
+ClientConnectionId:1a7e5e64-b50b-4821-8328-a8c188473028
+Error Number:50000,State:1,Class:16
+2026-06-04 09:58:32.291 +05:30 [INF] Request finished HTTP/2 POST https://localhost:62546/api/Users - 500 null application/json 820.2904ms
+2026-06-04 09:59:39.074 +05:30 [INF] Request starting HTTP/2 POST https://localhost:62546/api/Users - application/json 115
+2026-06-04 09:59:39.472 +05:30 [INF] Executing endpoint 'CleanArchAPI.API.Controllers.UsersController.Create (CleanArchAPI.API)'
+2026-06-04 09:59:39.475 +05:30 [INF] Route matched with {action = "Create", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Create(CleanArchAPI.Common.DTOs.CreateUserRequest) on controller CleanArchAPI.API.Controllers.UsersController (CleanArchAPI.API).
+2026-06-04 09:59:40.097 +05:30 [INF] Executed action CleanArchAPI.API.Controllers.UsersController.Create (CleanArchAPI.API) in 616.3246ms
+2026-06-04 09:59:40.102 +05:30 [INF] Executed endpoint 'CleanArchAPI.API.Controllers.UsersController.Create (CleanArchAPI.API)'
+2026-06-04 09:59:40.108 +05:30 [ERR] HTTP POST /api/Users responded 500 in 648.2191 ms
+Microsoft.Data.SqlClient.SqlException (0x80131904): Email already exists.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__195_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Dapper.SqlMapper.QueryRowAsync[T](IDbConnection cnn, Row row, Type effectiveType, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 489
+   at CleanArchAPI.Data.Implementations.UserRepository.CreateAsync(CreateUserRequest request, String createdBy) in C:\Users\phData\Downloads\CleanArchAPI_Final_v3\CleanArchFinal\CleanArchAPI.Data\Implementations\Repositories.cs:line 51
+   at CleanArchAPI.API.Controllers.UsersController.Create(CreateUserRequest request) in C:\Users\phData\Downloads\CleanArchAPI_Final_v3\CleanArchFinal\CleanArchAPI.API\Controllers\Controllers.cs:line 93
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+ClientConnectionId:1a7e5e64-b50b-4821-8328-a8c188473028
+Error Number:50000,State:1,Class:16
+2026-06-04 09:59:40.381 +05:30 [ERR] Unhandled exception. Path: /api/Users
+Microsoft.Data.SqlClient.SqlException (0x80131904): Email already exists.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__195_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Dapper.SqlMapper.QueryRowAsync[T](IDbConnection cnn, Row row, Type effectiveType, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 489
+   at CleanArchAPI.Data.Implementations.UserRepository.CreateAsync(CreateUserRequest request, String createdBy) in C:\Users\phData\Downloads\CleanArchAPI_Final_v3\CleanArchFinal\CleanArchAPI.Data\Implementations\Repositories.cs:line 51
+   at CleanArchAPI.API.Controllers.UsersController.Create(CreateUserRequest request) in C:\Users\phData\Downloads\CleanArchAPI_Final_v3\CleanArchFinal\CleanArchAPI.API\Controllers\Controllers.cs:line 93
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at CleanArchAPI.API.Middleware.ExceptionMiddleware.InvokeAsync(HttpContext context) in C:\Users\phData\Downloads\CleanArchAPI_Final_v3\CleanArchFinal\CleanArchAPI.API\Middleware\ExceptionMiddleware.cs:line 27
+ClientConnectionId:1a7e5e64-b50b-4821-8328-a8c188473028
+Error Number:50000,State:1,Class:16
+2026-06-04 09:59:40.550 +05:30 [INF] Request finished HTTP/2 POST https://localhost:62546/api/Users - 500 null application/json 1475.7624ms
+2026-06-04 10:04:43.040 +05:30 [INF] Request starting HTTP/2 POST https://localhost:62546/api/Users - application/json 124
+2026-06-04 10:04:43.063 +05:30 [INF] Executing endpoint 'CleanArchAPI.API.Controllers.UsersController.Create (CleanArchAPI.API)'
+2026-06-04 10:04:43.065 +05:30 [INF] Route matched with {action = "Create", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Create(CleanArchAPI.Common.DTOs.CreateUserRequest) on controller CleanArchAPI.API.Controllers.UsersController (CleanArchAPI.API).
+2026-06-04 10:04:43.249 +05:30 [INF] Executing CreatedAtActionResult, writing value of type 'CleanArchAPI.Common.Models.ApiResponse`1[[System.Object, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-06-04 10:04:43.279 +05:30 [INF] Executed action CleanArchAPI.API.Controllers.UsersController.Create (CleanArchAPI.API) in 211.0314ms
+2026-06-04 10:04:43.281 +05:30 [INF] Executed endpoint 'CleanArchAPI.API.Controllers.UsersController.Create (CleanArchAPI.API)'
+2026-06-04 10:04:43.283 +05:30 [INF] HTTP POST /api/Users responded 201 in 221.9323 ms
+2026-06-04 10:04:43.286 +05:30 [INF] Request finished HTTP/2 POST https://localhost:62546/api/Users - 201 null application/json; charset=utf-8 252.5633ms
+2026-06-04 11:49:33.847 +05:30 [INF] CleanArch API started on Development
+2026-06-04 11:49:34.121 +05:30 [INF] User profile is available. Using 'C:\Users\phData\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-06-04 11:49:34.857 +05:30 [INF] Now listening on: https://localhost:62546
+2026-06-04 11:49:34.861 +05:30 [INF] Now listening on: http://localhost:62547
+2026-06-04 11:49:35.085 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-06-04 11:49:35.167 +05:30 [INF] Hosting environment: Development
+2026-06-04 11:49:35.187 +05:30 [INF] Content root path: C:\Users\phData\Downloads\CleanArchAPI_Final_v3\CleanArchFinal\CleanArchAPI.API
+2026-06-04 11:49:36.701 +05:30 [INF] Request starting HTTP/2 GET https://localhost:62546/index.html - null null
+2026-06-04 11:49:37.746 +05:30 [INF] Request finished HTTP/2 GET https://localhost:62546/index.html - 200 null text/html;charset=utf-8 1060.2034ms
+2026-06-04 11:49:37.849 +05:30 [INF] Request starting HTTP/2 GET https://localhost:62546/_vs/browserLink - null null
+2026-06-04 11:49:37.849 +05:30 [INF] Request starting HTTP/2 GET https://localhost:62546/_framework/aspnetcore-browser-refresh.js - null null
+2026-06-04 11:49:38.059 +05:30 [INF] Request finished HTTP/2 GET https://localhost:62546/_framework/aspnetcore-browser-refresh.js - 200 14937 application/javascript; charset=utf-8 207.9659ms
+2026-06-04 11:49:38.708 +05:30 [INF] Request finished HTTP/2 GET https://localhost:62546/_vs/browserLink - 200 null text/javascript; charset=UTF-8 859.6407ms
+2026-06-04 11:49:38.891 +05:30 [INF] Request starting HTTP/2 GET https://localhost:62546/swagger/v1/swagger.json - null null
+2026-06-04 11:49:39.272 +05:30 [INF] Request finished HTTP/2 GET https://localhost:62546/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 386.4884ms
+2026-06-04 11:59:58.166 +05:30 [INF] Request starting HTTP/2 POST https://localhost:62546/api/Auth/login - application/json 56
+2026-06-04 11:59:58.548 +05:30 [INF] Executing endpoint 'CleanArchAPI.API.Controllers.AuthController.Login (CleanArchAPI.API)'
+2026-06-04 11:59:58.646 +05:30 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(CleanArchAPI.Common.DTOs.LoginRequest) on controller CleanArchAPI.API.Controllers.AuthController (CleanArchAPI.API).
+2026-06-04 11:59:58.776 +05:30 [INF] Login attempt: john@test.com
+2026-06-04 12:00:03.049 +05:30 [INF] Executing OkObjectResult, writing value of type 'CleanArchAPI.Common.Models.ApiResponse`1[[CleanArchAPI.Common.DTOs.LoginResponse, CleanArchAPI.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-06-04 12:00:03.113 +05:30 [INF] Executed action CleanArchAPI.API.Controllers.AuthController.Login (CleanArchAPI.API) in 4447.3984ms
+2026-06-04 12:00:03.122 +05:30 [INF] Executed endpoint 'CleanArchAPI.API.Controllers.AuthController.Login (CleanArchAPI.API)'
+2026-06-04 12:00:03.135 +05:30 [INF] HTTP POST /api/Auth/login responded 200 in 4931.7992 ms
+2026-06-04 12:00:03.149 +05:30 [INF] Request finished HTTP/2 POST https://localhost:62546/api/Auth/login - 200 null application/json; charset=utf-8 4988.4647ms
+2026-06-04 12:01:00.555 +05:30 [INF] Request starting HTTP/2 POST https://localhost:62546/api/Users - application/json 121
+2026-06-04 12:01:00.644 +05:30 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Admin)
+2026-06-04 12:01:00.662 +05:30 [INF] AuthenticationScheme: Bearer was challenged.
+2026-06-04 12:01:00.669 +05:30 [INF] HTTP POST /api/Users responded 401 in 82.2560 ms
+2026-06-04 12:01:00.678 +05:30 [INF] Request finished HTTP/2 POST https://localhost:62546/api/Users - 401 0 null 124.1406ms
+2026-06-04 12:01:13.039 +05:30 [INF] Request starting HTTP/2 GET https://localhost:62546/index.html - null null
+2026-06-04 12:01:13.107 +05:30 [INF] Request finished HTTP/2 GET https://localhost:62546/index.html - 200 null text/html;charset=utf-8 69.3543ms
+2026-06-04 12:01:13.154 +05:30 [INF] Request starting HTTP/2 GET https://localhost:62546/_framework/aspnetcore-browser-refresh.js - null null
+2026-06-04 12:01:13.158 +05:30 [INF] Request starting HTTP/2 GET https://localhost:62546/_vs/browserLink - null null
+2026-06-04 12:01:13.246 +05:30 [INF] Request finished HTTP/2 GET https://localhost:62546/_framework/aspnetcore-browser-refresh.js - 200 14937 application/javascript; charset=utf-8 92.335ms
+2026-06-04 12:01:13.338 +05:30 [INF] Request finished HTTP/2 GET https://localhost:62546/_vs/browserLink - 200 null text/javascript; charset=UTF-8 179.6075ms
+2026-06-04 12:01:13.424 +05:30 [INF] Request starting HTTP/2 GET https://localhost:62546/swagger/v1/swagger.json - null null
+2026-06-04 12:01:13.523 +05:30 [INF] Request finished HTTP/2 GET https://localhost:62546/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 98.5947ms
+2026-06-04 12:27:12.784 +05:30 [INF] CleanArch API started on Development
+2026-06-04 12:27:12.993 +05:30 [INF] User profile is available. Using 'C:\Users\phData\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-06-04 12:27:13.578 +05:30 [INF] Now listening on: https://localhost:62546
+2026-06-04 12:27:13.582 +05:30 [INF] Now listening on: http://localhost:62547
+2026-06-04 12:27:13.785 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-06-04 12:27:13.789 +05:30 [INF] Hosting environment: Development
+2026-06-04 12:27:13.792 +05:30 [INF] Content root path: C:\Users\phData\Downloads\CleanArchAPI_Final_v3\CleanArchFinal\CleanArchAPI.API
+2026-06-04 12:27:14.567 +05:30 [INF] Request starting HTTP/2 GET https://localhost:62546/index.html - null null
+2026-06-04 12:27:15.317 +05:30 [INF] Request finished HTTP/2 GET https://localhost:62546/index.html - 200 null text/html;charset=utf-8 771.9511ms
+2026-06-04 12:27:15.378 +05:30 [INF] Request starting HTTP/2 GET https://localhost:62546/_vs/browserLink - null null
+2026-06-04 12:27:15.378 +05:30 [INF] Request starting HTTP/2 GET https://localhost:62546/_framework/aspnetcore-browser-refresh.js - null null
+2026-06-04 12:27:15.417 +05:30 [INF] Request finished HTTP/2 GET https://localhost:62546/_framework/aspnetcore-browser-refresh.js - 200 14937 application/javascript; charset=utf-8 38.7735ms
+2026-06-04 12:27:15.523 +05:30 [INF] Request finished HTTP/2 GET https://localhost:62546/_vs/browserLink - 200 null text/javascript; charset=UTF-8 144.7418ms
+2026-06-04 12:27:15.605 +05:30 [INF] Request starting HTTP/2 GET https://localhost:62546/swagger/v1/swagger.json - null null
+2026-06-04 12:27:15.664 +05:30 [INF] Request finished HTTP/2 GET https://localhost:62546/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 60.4167ms
+2026-06-04 12:37:49.549 +05:30 [INF] CleanArch API started on Development
+2026-06-04 12:37:49.807 +05:30 [INF] User profile is available. Using 'C:\Users\phData\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-06-04 12:37:50.355 +05:30 [INF] Now listening on: https://localhost:62546
+2026-06-04 12:37:50.359 +05:30 [INF] Now listening on: http://localhost:62547
+2026-06-04 12:37:50.505 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-06-04 12:37:50.509 +05:30 [INF] Hosting environment: Development
+2026-06-04 12:37:50.512 +05:30 [INF] Content root path: C:\Users\phData\Downloads\CleanArchAPI_Final_v3\CleanArchFinal\CleanArchAPI.API
+2026-06-04 12:37:51.646 +05:30 [INF] Request starting HTTP/2 GET https://localhost:62546/index.html - null null
+2026-06-04 12:37:52.276 +05:30 [INF] Request finished HTTP/2 GET https://localhost:62546/index.html - 200 null text/html;charset=utf-8 652.2624ms
+2026-06-04 12:37:52.290 +05:30 [INF] Request starting HTTP/2 GET https://localhost:62546/_framework/aspnetcore-browser-refresh.js - null null
+2026-06-04 12:37:52.291 +05:30 [INF] Request starting HTTP/2 GET https://localhost:62546/_vs/browserLink - null null
+2026-06-04 12:37:52.337 +05:30 [INF] Request finished HTTP/2 GET https://localhost:62546/_framework/aspnetcore-browser-refresh.js - 200 14937 application/javascript; charset=utf-8 46.9248ms
+2026-06-04 12:37:52.450 +05:30 [INF] Request finished HTTP/2 GET https://localhost:62546/_vs/browserLink - 200 null text/javascript; charset=UTF-8 160.0152ms
+2026-06-04 12:37:52.542 +05:30 [INF] Request starting HTTP/2 GET https://localhost:62546/swagger/v1/swagger.json - null null
+2026-06-04 12:37:52.637 +05:30 [INF] Request finished HTTP/2 GET https://localhost:62546/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 94.5452ms
+2026-06-04 12:39:14.888 +05:30 [INF] Request starting HTTP/2 GET https://localhost:62546/index.html - null null
+2026-06-04 12:39:15.000 +05:30 [INF] Request starting HTTP/2 GET https://localhost:62546/_vs/browserLink - null null
+2026-06-04 12:39:15.000 +05:30 [INF] Request starting HTTP/2 GET https://localhost:62546/_framework/aspnetcore-browser-refresh.js - null null
+2026-06-04 12:39:15.006 +05:30 [INF] Request finished HTTP/2 GET https://localhost:62546/index.html - 200 null text/html;charset=utf-8 118.4233ms
+2026-06-04 12:39:15.068 +05:30 [INF] Request finished HTTP/2 GET https://localhost:62546/_framework/aspnetcore-browser-refresh.js - 200 14937 application/javascript; charset=utf-8 65.6828ms
+2026-06-04 12:39:15.107 +05:30 [INF] Request finished HTTP/2 GET https://localhost:62546/_vs/browserLink - 200 null text/javascript; charset=UTF-8 108.5218ms
+2026-06-04 12:39:15.157 +05:30 [INF] Request starting HTTP/2 GET https://localhost:62546/swagger/v1/swagger.json - null null
+2026-06-04 12:39:15.234 +05:30 [INF] Request finished HTTP/2 GET https://localhost:62546/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 78.005ms
+2026-06-04 12:41:00.250 +05:30 [INF] Request starting HTTP/2 GET https://localhost:62546/index.html - null null
+2026-06-04 12:41:00.331 +05:30 [INF] Request finished HTTP/2 GET https://localhost:62546/index.html - 200 null text/html;charset=utf-8 83.8853ms
+2026-06-04 12:41:00.362 +05:30 [INF] Request starting HTTP/2 GET https://localhost:62546/_framework/aspnetcore-browser-refresh.js - null null
+2026-06-04 12:41:00.362 +05:30 [INF] Request starting HTTP/2 GET https://localhost:62546/_vs/browserLink - null null
+2026-06-04 12:41:00.393 +05:30 [INF] Request finished HTTP/2 GET https://localhost:62546/_framework/aspnetcore-browser-refresh.js - 200 14937 application/javascript; charset=utf-8 33.4567ms
+2026-06-04 12:41:00.471 +05:30 [INF] Request finished HTTP/2 GET https://localhost:62546/_vs/browserLink - 200 null text/javascript; charset=UTF-8 111.2641ms
+2026-06-04 12:41:00.641 +05:30 [INF] Request starting HTTP/2 GET https://localhost:62546/swagger/v1/swagger.json - null null
+2026-06-04 12:41:00.682 +05:30 [INF] Request finished HTTP/2 GET https://localhost:62546/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 41.8347ms
+2026-06-04 12:45:54.725 +05:30 [INF] CleanArch API started on Development
+2026-06-04 12:45:54.841 +05:30 [INF] User profile is available. Using 'C:\Users\phData\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-06-04 12:45:55.153 +05:30 [INF] Now listening on: https://localhost:62546
+2026-06-04 12:45:55.155 +05:30 [INF] Now listening on: http://localhost:62547
+2026-06-04 12:45:55.252 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-06-04 12:45:55.254 +05:30 [INF] Hosting environment: Development
+2026-06-04 12:45:55.256 +05:30 [INF] Content root path: C:\Users\phData\Downloads\CleanArchAPI_Final_v3\CleanArchFinal\CleanArchAPI.API
+2026-06-04 12:45:56.219 +05:30 [INF] Request starting HTTP/2 GET https://localhost:62546/index.html - null null
+2026-06-04 12:45:56.615 +05:30 [INF] Request starting HTTP/2 GET https://localhost:62546/_vs/browserLink - null null
+2026-06-04 12:45:56.615 +05:30 [INF] Request starting HTTP/2 GET https://localhost:62546/_framework/aspnetcore-browser-refresh.js - null null
+2026-06-04 12:45:56.625 +05:30 [INF] Request finished HTTP/2 GET https://localhost:62546/index.html - 200 null text/html;charset=utf-8 418.4815ms
+2026-06-04 12:45:56.675 +05:30 [INF] Request finished HTTP/2 GET https://localhost:62546/_framework/aspnetcore-browser-refresh.js - 200 14937 application/javascript; charset=utf-8 56.239ms
+2026-06-04 12:45:56.748 +05:30 [INF] Request finished HTTP/2 GET https://localhost:62546/_vs/browserLink - 200 null text/javascript; charset=UTF-8 133.125ms
+2026-06-04 12:45:56.807 +05:30 [INF] Request starting HTTP/2 GET https://localhost:62546/swagger/v1/swagger.json - null null
+2026-06-04 12:45:56.869 +05:30 [INF] Request finished HTTP/2 GET https://localhost:62546/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 61.8324ms
+2026-06-04 12:53:08.756 +05:30 [INF] Request starting HTTP/2 GET https://localhost:62546/index.html - null null
+2026-06-04 12:53:08.789 +05:30 [INF] Request finished HTTP/2 GET https://localhost:62546/index.html - 200 null text/html;charset=utf-8 35.4104ms
+2026-06-04 12:53:08.803 +05:30 [INF] Request starting HTTP/2 GET https://localhost:62546/_framework/aspnetcore-browser-refresh.js - null null
+2026-06-04 12:53:08.803 +05:30 [INF] Request starting HTTP/2 GET https://localhost:62546/_vs/browserLink - null null
+2026-06-04 12:53:08.810 +05:30 [INF] Request finished HTTP/2 GET https://localhost:62546/_framework/aspnetcore-browser-refresh.js - 200 14937 application/javascript; charset=utf-8 7.7891ms
+2026-06-04 12:53:08.864 +05:30 [INF] Request finished HTTP/2 GET https://localhost:62546/_vs/browserLink - 200 null text/javascript; charset=UTF-8 61.548ms
+2026-06-04 12:53:08.887 +05:30 [INF] Request starting HTTP/2 GET https://localhost:62546/swagger/v1/swagger.json - null null
+2026-06-04 12:53:08.927 +05:30 [INF] Request finished HTTP/2 GET https://localhost:62546/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 40.8413ms
+2026-06-04 12:53:46.381 +05:30 [INF] Request starting HTTP/2 POST https://localhost:62546/api/Auth/login - application/json 58
+2026-06-04 12:53:46.513 +05:30 [INF] Executing endpoint 'CleanArchAPI.API.Controllers.AuthController.Login (CleanArchAPI.API)'
+2026-06-04 12:53:46.538 +05:30 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(CleanArchAPI.Common.DTOs.LoginRequest) on controller CleanArchAPI.API.Controllers.AuthController (CleanArchAPI.API).
+2026-06-04 12:53:46.581 +05:30 [INF] Login attempt: admin@test.com
+2026-06-04 12:53:47.925 +05:30 [INF] Executing UnauthorizedObjectResult, writing value of type 'CleanArchAPI.Common.Models.ApiResponse`1[[System.Object, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-06-04 12:53:47.934 +05:30 [INF] Executed action CleanArchAPI.API.Controllers.AuthController.Login (CleanArchAPI.API) in 1388.9568ms
+2026-06-04 12:53:47.938 +05:30 [INF] Executed endpoint 'CleanArchAPI.API.Controllers.AuthController.Login (CleanArchAPI.API)'
+2026-06-04 12:53:47.942 +05:30 [INF] HTTP POST /api/Auth/login responded 401 in 1539.1550 ms
+2026-06-04 12:53:47.945 +05:30 [INF] Request finished HTTP/2 POST https://localhost:62546/api/Auth/login - 401 null application/json; charset=utf-8 1563.8398ms
+2026-06-04 12:54:13.778 +05:30 [INF] Request starting HTTP/2 POST https://localhost:62546/api/Auth/login - application/json 57
+2026-06-04 12:54:13.784 +05:30 [INF] Executing endpoint 'CleanArchAPI.API.Controllers.AuthController.Login (CleanArchAPI.API)'
+2026-06-04 12:54:13.795 +05:30 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(CleanArchAPI.Common.DTOs.LoginRequest) on controller CleanArchAPI.API.Controllers.AuthController (CleanArchAPI.API).
+2026-06-04 12:54:13.799 +05:30 [INF] Login attempt: admin@test.com
+2026-06-04 12:54:13.994 +05:30 [INF] Executing OkObjectResult, writing value of type 'CleanArchAPI.Common.Models.ApiResponse`1[[CleanArchAPI.Common.DTOs.LoginResponse, CleanArchAPI.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-06-04 12:54:14.001 +05:30 [INF] Executed action CleanArchAPI.API.Controllers.AuthController.Login (CleanArchAPI.API) in 203.6253ms
+2026-06-04 12:54:14.004 +05:30 [INF] Executed endpoint 'CleanArchAPI.API.Controllers.AuthController.Login (CleanArchAPI.API)'
+2026-06-04 12:54:14.006 +05:30 [INF] HTTP POST /api/Auth/login responded 200 in 222.9868 ms
+2026-06-04 12:54:14.009 +05:30 [INF] Request finished HTTP/2 POST https://localhost:62546/api/Auth/login - 200 null application/json; charset=utf-8 232.5261ms
+2026-06-04 12:56:00.630 +05:30 [INF] Request starting HTTP/2 GET https://localhost:62546/api/Users - null null
+2026-06-04 12:56:00.803 +05:30 [INF] Executing endpoint 'CleanArchAPI.API.Controllers.UsersController.GetAll (CleanArchAPI.API)'
+2026-06-04 12:56:00.825 +05:30 [INF] Route matched with {action = "GetAll", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll(CleanArchAPI.Common.DTOs.UserFilterRequest) on controller CleanArchAPI.API.Controllers.UsersController (CleanArchAPI.API).
+2026-06-04 12:56:00.974 +05:30 [INF] Executing OkObjectResult, writing value of type 'CleanArchAPI.Common.Models.ApiResponse`1[[System.Collections.Generic.IEnumerable`1[[CleanArchAPI.Common.DTOs.UserDto, CleanArchAPI.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-06-04 12:56:01.004 +05:30 [INF] Executed action CleanArchAPI.API.Controllers.UsersController.GetAll (CleanArchAPI.API) in 169.9765ms
+2026-06-04 12:56:01.011 +05:30 [INF] Executed endpoint 'CleanArchAPI.API.Controllers.UsersController.GetAll (CleanArchAPI.API)'
+2026-06-04 12:56:01.017 +05:30 [INF] HTTP GET /api/Users responded 200 in 350.2325 ms
+2026-06-04 12:56:01.026 +05:30 [INF] Request finished HTTP/2 GET https://localhost:62546/api/Users - 200 null application/json; charset=utf-8 395.9414ms
+2026-06-04 12:56:43.318 +05:30 [INF] Request starting HTTP/2 POST https://localhost:62546/api/Users - application/json 121
+2026-06-04 12:56:43.370 +05:30 [INF] Executing endpoint 'CleanArchAPI.API.Controllers.UsersController.Create (CleanArchAPI.API)'
+2026-06-04 12:56:43.381 +05:30 [INF] Route matched with {action = "Create", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Create(CleanArchAPI.Common.DTOs.CreateUserRequest) on controller CleanArchAPI.API.Controllers.UsersController (CleanArchAPI.API).
+2026-06-04 12:56:43.928 +05:30 [INF] Executing CreatedAtActionResult, writing value of type 'CleanArchAPI.Common.Models.ApiResponse`1[[System.Object, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-06-04 12:56:44.001 +05:30 [INF] Executed action CleanArchAPI.API.Controllers.UsersController.Create (CleanArchAPI.API) in 614.1697ms
+2026-06-04 12:56:44.012 +05:30 [INF] Executed endpoint 'CleanArchAPI.API.Controllers.UsersController.Create (CleanArchAPI.API)'
+2026-06-04 12:56:44.048 +05:30 [INF] HTTP POST /api/Users responded 201 in 684.1708 ms
+2026-06-04 12:56:44.062 +05:30 [INF] Request finished HTTP/2 POST https://localhost:62546/api/Users - 201 null application/json; charset=utf-8 746.9075ms
+2026-06-04 12:57:30.448 +05:30 [INF] Request starting HTTP/2 GET https://localhost:62546/api/Users/83765a7f-64f4-42ad-a140-5cf6a61d7cf8 - null null
+2026-06-04 12:57:30.516 +05:30 [INF] Executing endpoint 'CleanArchAPI.API.Controllers.UsersController.GetByGuid (CleanArchAPI.API)'
+2026-06-04 12:57:30.537 +05:30 [INF] Route matched with {action = "GetByGuid", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetByGuid(System.Guid) on controller CleanArchAPI.API.Controllers.UsersController (CleanArchAPI.API).
+2026-06-04 12:57:30.606 +05:30 [INF] Executing OkObjectResult, writing value of type 'CleanArchAPI.Common.Models.ApiResponse`1[[CleanArchAPI.Common.DTOs.UserDto, CleanArchAPI.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-06-04 12:57:30.620 +05:30 [INF] Executed action CleanArchAPI.API.Controllers.UsersController.GetByGuid (CleanArchAPI.API) in 69.9889ms
+2026-06-04 12:57:30.648 +05:30 [INF] Executed endpoint 'CleanArchAPI.API.Controllers.UsersController.GetByGuid (CleanArchAPI.API)'
+2026-06-04 12:57:30.654 +05:30 [INF] HTTP GET /api/Users/83765a7f-64f4-42ad-a140-5cf6a61d7cf8 responded 200 in 143.9690 ms
+2026-06-04 12:57:30.665 +05:30 [INF] Request finished HTTP/2 GET https://localhost:62546/api/Users/83765a7f-64f4-42ad-a140-5cf6a61d7cf8 - 200 null application/json; charset=utf-8 218.9165ms
+2026-06-04 12:58:06.744 +05:30 [INF] Request starting HTTP/2 PUT https://localhost:62546/api/Users/83765a7f-64f4-42ad-a140-5cf6a61d7cf8 - application/json 59
+2026-06-04 12:58:06.794 +05:30 [INF] Executing endpoint 'CleanArchAPI.API.Controllers.UsersController.Update (CleanArchAPI.API)'
+2026-06-04 12:58:06.814 +05:30 [INF] Route matched with {action = "Update", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Update(System.Guid, CleanArchAPI.Common.DTOs.UpdateUserRequest) on controller CleanArchAPI.API.Controllers.UsersController (CleanArchAPI.API).
+2026-06-04 12:58:06.979 +05:30 [INF] Executing OkObjectResult, writing value of type 'CleanArchAPI.Common.Models.ApiResponse`1[[System.Object, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-06-04 12:58:06.990 +05:30 [INF] Executed action CleanArchAPI.API.Controllers.UsersController.Update (CleanArchAPI.API) in 163.1698ms
+2026-06-04 12:58:07.028 +05:30 [INF] Executed endpoint 'CleanArchAPI.API.Controllers.UsersController.Update (CleanArchAPI.API)'
+2026-06-04 12:58:07.037 +05:30 [INF] HTTP PUT /api/Users/83765a7f-64f4-42ad-a140-5cf6a61d7cf8 responded 200 in 244.0082 ms
+2026-06-04 12:58:07.052 +05:30 [INF] Request finished HTTP/2 PUT https://localhost:62546/api/Users/83765a7f-64f4-42ad-a140-5cf6a61d7cf8 - 200 null application/json; charset=utf-8 308.7438ms
+2026-06-04 12:59:33.209 +05:30 [INF] Request starting HTTP/2 GET https://localhost:62546/api/Products - null null
+2026-06-04 12:59:33.258 +05:30 [INF] Executing endpoint 'CleanArchAPI.API.Controllers.ProductsController.GetAll (CleanArchAPI.API)'
+2026-06-04 12:59:33.296 +05:30 [INF] Route matched with {action = "GetAll", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll(CleanArchAPI.Common.DTOs.ProductFilterRequest) on controller CleanArchAPI.API.Controllers.ProductsController (CleanArchAPI.API).
+2026-06-04 12:59:33.448 +05:30 [INF] Executing OkObjectResult, writing value of type 'CleanArchAPI.Common.Models.ApiResponse`1[[System.Collections.Generic.IEnumerable`1[[CleanArchAPI.Common.DTOs.ProductDto, CleanArchAPI.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-06-04 12:59:33.490 +05:30 [INF] Executed action CleanArchAPI.API.Controllers.ProductsController.GetAll (CleanArchAPI.API) in 180.4296ms
+2026-06-04 12:59:33.533 +05:30 [INF] Executed endpoint 'CleanArchAPI.API.Controllers.ProductsController.GetAll (CleanArchAPI.API)'
+2026-06-04 12:59:33.543 +05:30 [INF] HTTP GET /api/Products responded 200 in 289.9808 ms
+2026-06-04 12:59:33.558 +05:30 [INF] Request finished HTTP/2 GET https://localhost:62546/api/Products - 200 null application/json; charset=utf-8 350.0025ms
+2026-06-04 13:00:29.995 +05:30 [INF] Request starting HTTP/2 POST https://localhost:62546/api/Products - application/json 113
+2026-06-04 13:00:30.041 +05:30 [INF] Executing endpoint 'CleanArchAPI.API.Controllers.ProductsController.Create (CleanArchAPI.API)'
+2026-06-04 13:00:30.053 +05:30 [INF] Route matched with {action = "Create", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Create(CleanArchAPI.Common.DTOs.CreateProductRequest) on controller CleanArchAPI.API.Controllers.ProductsController (CleanArchAPI.API).
+2026-06-04 13:00:30.152 +05:30 [INF] Executing CreatedAtActionResult, writing value of type 'CleanArchAPI.Common.Models.ApiResponse`1[[System.Object, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-06-04 13:00:30.168 +05:30 [INF] Executed action CleanArchAPI.API.Controllers.ProductsController.Create (CleanArchAPI.API) in 108.2998ms
+2026-06-04 13:00:30.183 +05:30 [INF] Executed endpoint 'CleanArchAPI.API.Controllers.ProductsController.Create (CleanArchAPI.API)'
+2026-06-04 13:00:30.252 +05:30 [INF] HTTP POST /api/Products responded 201 in 210.9318 ms
+2026-06-04 13:00:30.270 +05:30 [INF] Request finished HTTP/2 POST https://localhost:62546/api/Products - 201 null application/json; charset=utf-8 276.0866ms
+2026-06-04 13:00:59.530 +05:30 [INF] Request starting HTTP/2 GET https://localhost:62546/api/Products/5930744d-daa2-4e96-ae4f-ede6ec0f2bfe - null null
+2026-06-04 13:00:59.580 +05:30 [INF] Executing endpoint 'CleanArchAPI.API.Controllers.ProductsController.GetByGuid (CleanArchAPI.API)'
+2026-06-04 13:00:59.599 +05:30 [INF] Route matched with {action = "GetByGuid", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetByGuid(System.Guid) on controller CleanArchAPI.API.Controllers.ProductsController (CleanArchAPI.API).
+2026-06-04 13:00:59.645 +05:30 [INF] Executing OkObjectResult, writing value of type 'CleanArchAPI.Common.Models.ApiResponse`1[[CleanArchAPI.Common.DTOs.ProductDto, CleanArchAPI.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-06-04 13:00:59.654 +05:30 [INF] Executed action CleanArchAPI.API.Controllers.ProductsController.GetByGuid (CleanArchAPI.API) in 47.5437ms
+2026-06-04 13:00:59.672 +05:30 [INF] Executed endpoint 'CleanArchAPI.API.Controllers.ProductsController.GetByGuid (CleanArchAPI.API)'
+2026-06-04 13:00:59.675 +05:30 [INF] HTTP GET /api/Products/5930744d-daa2-4e96-ae4f-ede6ec0f2bfe responded 200 in 97.1959 ms
+2026-06-04 13:00:59.684 +05:30 [INF] Request finished HTTP/2 GET https://localhost:62546/api/Products/5930744d-daa2-4e96-ae4f-ede6ec0f2bfe - 200 null application/json; charset=utf-8 154.5399ms
+2026-06-04 13:01:24.075 +05:30 [INF] Request starting HTTP/2 PUT https://localhost:62546/api/Products/5930744d-daa2-4e96-ae4f-ede6ec0f2bfe - application/json 120
+2026-06-04 13:01:24.130 +05:30 [INF] Executing endpoint 'CleanArchAPI.API.Controllers.ProductsController.Update (CleanArchAPI.API)'
+2026-06-04 13:01:24.161 +05:30 [INF] Route matched with {action = "Update", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Update(System.Guid, CleanArchAPI.Common.DTOs.UpdateProductRequest) on controller CleanArchAPI.API.Controllers.ProductsController (CleanArchAPI.API).
+2026-06-04 13:01:24.267 +05:30 [INF] Executing OkObjectResult, writing value of type 'CleanArchAPI.Common.Models.ApiResponse`1[[System.Object, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-06-04 13:01:24.273 +05:30 [INF] Executed action CleanArchAPI.API.Controllers.ProductsController.Update (CleanArchAPI.API) in 96.7987ms
+2026-06-04 13:01:24.296 +05:30 [INF] Executed endpoint 'CleanArchAPI.API.Controllers.ProductsController.Update (CleanArchAPI.API)'
+2026-06-04 13:01:24.301 +05:30 [INF] HTTP PUT /api/Products/5930744d-daa2-4e96-ae4f-ede6ec0f2bfe responded 200 in 172.0562 ms
+2026-06-04 13:01:24.309 +05:30 [INF] Request finished HTTP/2 PUT https://localhost:62546/api/Products/5930744d-daa2-4e96-ae4f-ede6ec0f2bfe - 200 null application/json; charset=utf-8 235.7259ms
+2026-06-04 13:02:12.761 +05:30 [INF] Request starting HTTP/2 POST https://localhost:62546/api/Orders - application/json 56
+2026-06-04 13:02:12.777 +05:30 [INF] Executing endpoint 'CleanArchAPI.API.Controllers.OrdersController.Create (CleanArchAPI.API)'
+2026-06-04 13:02:12.783 +05:30 [INF] Route matched with {action = "Create", controller = "Orders"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Create(CleanArchAPI.Common.DTOs.CreateOrderRequest) on controller CleanArchAPI.API.Controllers.OrdersController (CleanArchAPI.API).
+2026-06-04 13:02:12.915 +05:30 [INF] Executed action CleanArchAPI.API.Controllers.OrdersController.Create (CleanArchAPI.API) in 129.9461ms
+2026-06-04 13:02:12.919 +05:30 [INF] Executed endpoint 'CleanArchAPI.API.Controllers.OrdersController.Create (CleanArchAPI.API)'
+2026-06-04 13:02:12.922 +05:30 [ERR] HTTP POST /api/Orders responded 500 in 145.9328 ms
+Microsoft.Data.SqlClient.SqlException (0x80131904): User not found.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__195_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Dapper.SqlMapper.QueryRowAsync[T](IDbConnection cnn, Row row, Type effectiveType, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 489
+   at CleanArchAPI.Data.Implementations.OrderRepository.CreateAsync(CreateOrderRequest request, String createdBy) in C:\Users\phData\Downloads\CleanArchAPI_Final_v3\CleanArchFinal\CleanArchAPI.Data\Implementations\OrderRepository.cs:line 123
+   at CleanArchAPI.API.Controllers.OrdersController.Create(CreateOrderRequest request) in C:\Users\phData\Downloads\CleanArchAPI_Final_v3\CleanArchFinal\CleanArchAPI.API\Controllers\OrdersController.cs:line 115
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+ClientConnectionId:317bb254-bf89-435c-bb85-3982b86d0829
+Error Number:50000,State:1,Class:16
+2026-06-04 13:02:13.116 +05:30 [ERR] Unhandled exception. Path: /api/Orders
+Microsoft.Data.SqlClient.SqlException (0x80131904): User not found.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__195_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Dapper.SqlMapper.QueryRowAsync[T](IDbConnection cnn, Row row, Type effectiveType, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 489
+   at CleanArchAPI.Data.Implementations.OrderRepository.CreateAsync(CreateOrderRequest request, String createdBy) in C:\Users\phData\Downloads\CleanArchAPI_Final_v3\CleanArchFinal\CleanArchAPI.Data\Implementations\OrderRepository.cs:line 123
+   at CleanArchAPI.API.Controllers.OrdersController.Create(CreateOrderRequest request) in C:\Users\phData\Downloads\CleanArchAPI_Final_v3\CleanArchFinal\CleanArchAPI.API\Controllers\OrdersController.cs:line 115
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at CleanArchAPI.API.Middleware.ExceptionMiddleware.InvokeAsync(HttpContext context) in C:\Users\phData\Downloads\CleanArchAPI_Final_v3\CleanArchFinal\CleanArchAPI.API\Middleware\ExceptionMiddleware.cs:line 27
+ClientConnectionId:317bb254-bf89-435c-bb85-3982b86d0829
+Error Number:50000,State:1,Class:16
+2026-06-04 13:02:13.131 +05:30 [INF] Request finished HTTP/2 POST https://localhost:62546/api/Orders - 500 null application/json 370.7738ms
+2026-06-04 15:49:56.412 +05:30 [INF] CleanArch API started on Development
+2026-06-04 15:49:56.541 +05:30 [INF] User profile is available. Using 'C:\Users\phData\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-06-04 15:49:56.929 +05:30 [INF] Now listening on: https://localhost:62546
+2026-06-04 15:49:56.931 +05:30 [INF] Now listening on: http://localhost:62547
+2026-06-04 15:49:57.066 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-06-04 15:49:57.069 +05:30 [INF] Hosting environment: Development
+2026-06-04 15:49:57.072 +05:30 [INF] Content root path: C:\Users\phData\Downloads\CleanArchAPI_Final_v3\CleanArchFinal\CleanArchAPI.API
+2026-06-04 15:49:57.521 +05:30 [INF] Request starting HTTP/2 GET https://localhost:62546/index.html - null null
+2026-06-04 15:49:57.896 +05:30 [INF] Request starting HTTP/2 GET https://localhost:62546/_framework/aspnetcore-browser-refresh.js - null null
+2026-06-04 15:49:57.896 +05:30 [INF] Request starting HTTP/2 GET https://localhost:62546/_vs/browserLink - null null
+2026-06-04 15:49:57.907 +05:30 [INF] Request finished HTTP/2 GET https://localhost:62546/index.html - 200 null text/html;charset=utf-8 397.2487ms
+2026-06-04 15:49:57.930 +05:30 [INF] Request finished HTTP/2 GET https://localhost:62546/_framework/aspnetcore-browser-refresh.js - 200 14937 application/javascript; charset=utf-8 33.935ms
+2026-06-04 15:49:58.017 +05:30 [INF] Request finished HTTP/2 GET https://localhost:62546/_vs/browserLink - 200 null text/javascript; charset=UTF-8 121.3193ms
+2026-06-04 15:49:58.065 +05:30 [INF] Request starting HTTP/2 GET https://localhost:62546/swagger/v1/swagger.json - null null
+2026-06-04 15:49:58.104 +05:30 [INF] Request finished HTTP/2 GET https://localhost:62546/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 39.7572ms
+2026-06-04 16:05:22.816 +05:30 [INF] CleanArch API started on Development
+2026-06-04 16:05:23.026 +05:30 [INF] User profile is available. Using 'C:\Users\phData\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-06-04 16:05:23.615 +05:30 [INF] Now listening on: https://localhost:62546
+2026-06-04 16:05:23.618 +05:30 [INF] Now listening on: http://localhost:62547
+2026-06-04 16:05:23.770 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-06-04 16:05:23.774 +05:30 [INF] Hosting environment: Development
+2026-06-04 16:05:23.776 +05:30 [INF] Content root path: C:\Users\phData\Downloads\CleanArchAPI_Final_v3\CleanArchFinal\CleanArchAPI.API
+2026-06-04 16:05:24.620 +05:30 [INF] Request starting HTTP/2 GET https://localhost:62546/index.html - null null
+2026-06-04 16:05:25.199 +05:30 [INF] Request finished HTTP/2 GET https://localhost:62546/index.html - 200 null text/html;charset=utf-8 592.8939ms
+2026-06-04 16:05:25.248 +05:30 [INF] Request starting HTTP/2 GET https://localhost:62546/_vs/browserLink - null null
+2026-06-04 16:05:25.248 +05:30 [INF] Request starting HTTP/2 GET https://localhost:62546/_framework/aspnetcore-browser-refresh.js - null null
+2026-06-04 16:05:25.402 +05:30 [INF] Request finished HTTP/2 GET https://localhost:62546/_framework/aspnetcore-browser-refresh.js - 200 14937 application/javascript; charset=utf-8 153.6456ms
+2026-06-04 16:05:25.461 +05:30 [INF] Request finished HTTP/2 GET https://localhost:62546/_vs/browserLink - 200 null text/javascript; charset=UTF-8 213.0644ms
+2026-06-04 16:05:25.546 +05:30 [INF] Request starting HTTP/2 GET https://localhost:62546/swagger/v1/swagger.json - null null
+2026-06-04 16:05:25.659 +05:30 [INF] Request finished HTTP/2 GET https://localhost:62546/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 113.2132ms
+2026-06-04 16:12:54.787 +05:30 [INF] CleanArch API started on Development
+2026-06-04 16:12:54.918 +05:30 [INF] User profile is available. Using 'C:\Users\phData\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-06-04 16:12:55.345 +05:30 [INF] Now listening on: https://localhost:62546
+2026-06-04 16:12:55.348 +05:30 [INF] Now listening on: http://localhost:62547
+2026-06-04 16:12:55.465 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-06-04 16:12:55.467 +05:30 [INF] Hosting environment: Development
+2026-06-04 16:12:55.470 +05:30 [INF] Content root path: C:\Users\phData\Downloads\CleanArchAPI_Final_v3\CleanArchFinal\CleanArchAPI.API
+2026-06-04 16:12:55.877 +05:30 [INF] Request starting HTTP/2 GET https://localhost:62546/index.html - null null
+2026-06-04 16:12:56.268 +05:30 [INF] Request starting HTTP/2 GET https://localhost:62546/_vs/browserLink - null null
+2026-06-04 16:12:56.268 +05:30 [INF] Request starting HTTP/2 GET https://localhost:62546/_framework/aspnetcore-browser-refresh.js - null null
+2026-06-04 16:12:56.274 +05:30 [INF] Request finished HTTP/2 GET https://localhost:62546/index.html - 200 null text/html;charset=utf-8 411.2615ms
+2026-06-04 16:12:56.294 +05:30 [INF] Request finished HTTP/2 GET https://localhost:62546/_framework/aspnetcore-browser-refresh.js - 200 14937 application/javascript; charset=utf-8 26.2463ms
+2026-06-04 16:12:56.381 +05:30 [INF] Request finished HTTP/2 GET https://localhost:62546/_vs/browserLink - 200 null text/javascript; charset=UTF-8 112.8032ms
+2026-06-04 16:12:56.441 +05:30 [INF] Request starting HTTP/2 GET https://localhost:62546/swagger/v1/swagger.json - null null
+2026-06-04 16:12:56.502 +05:30 [INF] Request finished HTTP/2 GET https://localhost:62546/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 61.9097ms
+2026-06-04 16:14:05.202 +05:30 [INF] Request starting HTTP/2 GET https://localhost:62546/index.html - null null
+2026-06-04 16:14:05.278 +05:30 [INF] Request starting HTTP/2 GET https://localhost:62546/_framework/aspnetcore-browser-refresh.js - null null
+2026-06-04 16:14:05.287 +05:30 [INF] Request starting HTTP/2 GET https://localhost:62546/_vs/browserLink - null null
+2026-06-04 16:14:05.288 +05:30 [INF] Request finished HTTP/2 GET https://localhost:62546/index.html - 200 null text/html;charset=utf-8 110.7708ms
+2026-06-04 16:14:05.322 +05:30 [INF] Request finished HTTP/2 GET https://localhost:62546/_framework/aspnetcore-browser-refresh.js - 200 14937 application/javascript; charset=utf-8 44.7726ms
+2026-06-04 16:14:05.370 +05:30 [INF] Request finished HTTP/2 GET https://localhost:62546/_vs/browserLink - 200 null text/javascript; charset=UTF-8 85.7435ms
+2026-06-04 16:14:05.418 +05:30 [INF] Request starting HTTP/2 GET https://localhost:62546/swagger/v1/swagger.json - null null
+2026-06-04 16:14:05.478 +05:30 [INF] Request finished HTTP/2 GET https://localhost:62546/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 60.2888ms
+2026-06-04 16:29:28.888 +05:30 [INF] CleanArch API started on Development
+2026-06-04 16:29:29.113 +05:30 [INF] User profile is available. Using 'C:\Users\phData\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-06-04 16:29:29.890 +05:30 [INF] Now listening on: https://localhost:62546
+2026-06-04 16:29:29.894 +05:30 [INF] Now listening on: http://localhost:62547
+2026-06-04 16:29:30.062 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-06-04 16:29:30.065 +05:30 [INF] Hosting environment: Development
+2026-06-04 16:29:30.067 +05:30 [INF] Content root path: C:\Users\phData\Downloads\CleanArchAPI_Final_v3\CleanArchFinal\CleanArchAPI.API
+2026-06-04 16:29:30.893 +05:30 [INF] Request starting HTTP/2 GET https://localhost:62546/index.html - null null
+2026-06-04 16:29:31.512 +05:30 [INF] Request starting HTTP/2 GET https://localhost:62546/_framework/aspnetcore-browser-refresh.js - null null
+2026-06-04 16:29:31.512 +05:30 [INF] Request starting HTTP/2 GET https://localhost:62546/_vs/browserLink - null null
+2026-06-04 16:29:31.521 +05:30 [INF] Request finished HTTP/2 GET https://localhost:62546/index.html - 200 null text/html;charset=utf-8 642.0645ms
+2026-06-04 16:29:31.548 +05:30 [INF] Request finished HTTP/2 GET https://localhost:62546/_framework/aspnetcore-browser-refresh.js - 200 14937 application/javascript; charset=utf-8 35.7549ms
+2026-06-04 16:29:31.672 +05:30 [INF] Request finished HTTP/2 GET https://localhost:62546/_vs/browserLink - 200 null text/javascript; charset=UTF-8 160.7648ms
+2026-06-04 16:29:31.750 +05:30 [INF] Request starting HTTP/2 GET https://localhost:62546/swagger/v1/swagger.json - null null
+2026-06-04 16:29:31.813 +05:30 [INF] Request finished HTTP/2 GET https://localhost:62546/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 63.7697ms
+2026-06-04 16:38:51.103 +05:30 [INF] Request starting HTTP/2 POST https://localhost:62546/api/Auth/LoginAsync - application/json 57
+2026-06-04 16:38:51.351 +05:30 [INF] Executing endpoint 'CleanArchAPI.API.Controllers.AuthController.LoginAsync (CleanArchAPI.API)'
+2026-06-04 16:38:51.425 +05:30 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] LoginAsync(CleanArchAPI.Common.DTOs.LoginRequest) on controller CleanArchAPI.API.Controllers.AuthController (CleanArchAPI.API).
+2026-06-04 16:38:51.539 +05:30 [INF] Login attempt: admin@test.com
+2026-06-04 16:38:55.042 +05:30 [INF] Executing OkObjectResult, writing value of type 'CleanArchAPI.Common.Models.ApiResponse`1[[CleanArchAPI.Common.DTOs.LoginResponse, CleanArchAPI.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-06-04 16:38:55.086 +05:30 [INF] Executed action CleanArchAPI.API.Controllers.AuthController.LoginAsync (CleanArchAPI.API) in 3641.2964ms
+2026-06-04 16:38:55.093 +05:30 [INF] Executed endpoint 'CleanArchAPI.API.Controllers.AuthController.LoginAsync (CleanArchAPI.API)'
+2026-06-04 16:38:55.106 +05:30 [INF] HTTP POST /api/Auth/LoginAsync responded 200 in 3977.9963 ms
+2026-06-04 16:38:55.114 +05:30 [INF] Request finished HTTP/2 POST https://localhost:62546/api/Auth/LoginAsync - 200 null application/json; charset=utf-8 4012.7034ms
+2026-06-04 16:41:14.387 +05:30 [INF] Request starting HTTP/2 GET https://localhost:62546/api/Users/GetAllAsync - null null
+2026-06-04 16:41:14.598 +05:30 [INF] Executing endpoint 'CleanArchAPI.API.Controllers.UsersController.GetAllAsync (CleanArchAPI.API)'
+2026-06-04 16:41:14.622 +05:30 [INF] Route matched with {action = "GetAll", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllAsync(CleanArchAPI.Common.DTOs.UserFilterRequest) on controller CleanArchAPI.API.Controllers.UsersController (CleanArchAPI.API).
+2026-06-04 16:41:14.787 +05:30 [INF] Executing OkObjectResult, writing value of type 'CleanArchAPI.Common.Models.ApiResponse`1[[System.Collections.Generic.IEnumerable`1[[CleanArchAPI.Common.DTOs.UserDto, CleanArchAPI.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-06-04 16:41:14.817 +05:30 [INF] Executed action CleanArchAPI.API.Controllers.UsersController.GetAllAsync (CleanArchAPI.API) in 188.1386ms
+2026-06-04 16:41:14.824 +05:30 [INF] Executed endpoint 'CleanArchAPI.API.Controllers.UsersController.GetAllAsync (CleanArchAPI.API)'
+2026-06-04 16:41:14.829 +05:30 [INF] HTTP GET /api/Users/GetAllAsync responded 200 in 416.1109 ms
+2026-06-04 16:41:14.838 +05:30 [INF] Request finished HTTP/2 GET https://localhost:62546/api/Users/GetAllAsync - 200 null application/json; charset=utf-8 452.192ms
+2026-06-04 16:43:12.768 +05:30 [INF] Request starting HTTP/2 PUT https://localhost:62546/api/Users/UpdateAsync/83765a7f-64f4-42ad-a140-5cf6a61d7cf8 - application/json 62
+2026-06-04 16:43:12.814 +05:30 [INF] Executing endpoint 'CleanArchAPI.API.Controllers.UsersController.UpdateAsync (CleanArchAPI.API)'
+2026-06-04 16:43:12.829 +05:30 [INF] Route matched with {action = "Update", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UpdateAsync(System.Guid, CleanArchAPI.Common.DTOs.UpdateUserRequest) on controller CleanArchAPI.API.Controllers.UsersController (CleanArchAPI.API).
+2026-06-04 16:43:12.965 +05:30 [INF] Executing OkObjectResult, writing value of type 'CleanArchAPI.Common.Models.ApiResponse`1[[System.Object, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-06-04 16:43:12.982 +05:30 [INF] Executed action CleanArchAPI.API.Controllers.UsersController.UpdateAsync (CleanArchAPI.API) in 144.9632ms
+2026-06-04 16:43:13.001 +05:30 [INF] Executed endpoint 'CleanArchAPI.API.Controllers.UsersController.UpdateAsync (CleanArchAPI.API)'
+2026-06-04 16:43:13.005 +05:30 [INF] HTTP PUT /api/Users/UpdateAsync/83765a7f-64f4-42ad-a140-5cf6a61d7cf8 responded 200 in 207.0068 ms
+2026-06-04 16:43:13.014 +05:30 [INF] Request finished HTTP/2 PUT https://localhost:62546/api/Users/UpdateAsync/83765a7f-64f4-42ad-a140-5cf6a61d7cf8 - 200 null application/json; charset=utf-8 245.893ms
+2026-06-04 16:44:06.343 +05:30 [INF] Request starting HTTP/2 GET https://localhost:62546/api/Products/GetAllAsync - null null
+2026-06-04 16:44:06.390 +05:30 [INF] Executing endpoint 'CleanArchAPI.API.Controllers.ProductsController.GetAllAsync (CleanArchAPI.API)'
+2026-06-04 16:44:06.410 +05:30 [INF] Route matched with {action = "GetAll", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllAsync(CleanArchAPI.Common.DTOs.ProductFilterRequest) on controller CleanArchAPI.API.Controllers.ProductsController (CleanArchAPI.API).
+2026-06-04 16:44:06.509 +05:30 [INF] Executing OkObjectResult, writing value of type 'CleanArchAPI.Common.Models.ApiResponse`1[[System.Collections.Generic.IEnumerable`1[[CleanArchAPI.Common.DTOs.ProductDto, CleanArchAPI.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-06-04 16:44:06.538 +05:30 [INF] Executed action CleanArchAPI.API.Controllers.ProductsController.GetAllAsync (CleanArchAPI.API) in 117.317ms
+2026-06-04 16:44:06.558 +05:30 [INF] Executed endpoint 'CleanArchAPI.API.Controllers.ProductsController.GetAllAsync (CleanArchAPI.API)'
+2026-06-04 16:44:06.562 +05:30 [INF] HTTP GET /api/Products/GetAllAsync responded 200 in 179.6961 ms
+2026-06-04 16:44:06.570 +05:30 [INF] Request finished HTTP/2 GET https://localhost:62546/api/Products/GetAllAsync - 200 null application/json; charset=utf-8 228.8134ms
