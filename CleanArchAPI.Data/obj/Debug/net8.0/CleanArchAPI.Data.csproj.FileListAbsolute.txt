@@ -1,0 +1,15 @@
+C:\Users\phData\Downloads\CleanArchAPI_Final_v3\CleanArchFinal\CleanArchAPI.Data\bin\Debug\net8.0\CleanArchAPI.Data.deps.json
+C:\Users\phData\Downloads\CleanArchAPI_Final_v3\CleanArchFinal\CleanArchAPI.Data\bin\Debug\net8.0\CleanArchAPI.Data.dll
+C:\Users\phData\Downloads\CleanArchAPI_Final_v3\CleanArchFinal\CleanArchAPI.Data\bin\Debug\net8.0\CleanArchAPI.Data.pdb
+C:\Users\phData\Downloads\CleanArchAPI_Final_v3\CleanArchFinal\CleanArchAPI.Data\bin\Debug\net8.0\CleanArchAPI.Common.dll
+C:\Users\phData\Downloads\CleanArchAPI_Final_v3\CleanArchFinal\CleanArchAPI.Data\bin\Debug\net8.0\CleanArchAPI.Common.pdb
+C:\Users\phData\Downloads\CleanArchAPI_Final_v3\CleanArchFinal\CleanArchAPI.Data\obj\Debug\net8.0\CleanArchAPI.Data.csproj.AssemblyReference.cache
+C:\Users\phData\Downloads\CleanArchAPI_Final_v3\CleanArchFinal\CleanArchAPI.Data\obj\Debug\net8.0\CleanArchAPI.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\phData\Downloads\CleanArchAPI_Final_v3\CleanArchFinal\CleanArchAPI.Data\obj\Debug\net8.0\CleanArchAPI.Data.AssemblyInfoInputs.cache
+C:\Users\phData\Downloads\CleanArchAPI_Final_v3\CleanArchFinal\CleanArchAPI.Data\obj\Debug\net8.0\CleanArchAPI.Data.AssemblyInfo.cs
+C:\Users\phData\Downloads\CleanArchAPI_Final_v3\CleanArchFinal\CleanArchAPI.Data\obj\Debug\net8.0\CleanArchAPI.Data.csproj.CoreCompileInputs.cache
+C:\Users\phData\Downloads\CleanArchAPI_Final_v3\CleanArchFinal\CleanArchAPI.Data\obj\Debug\net8.0\CleanArc.4EB315A0.Up2Date
+C:\Users\phData\Downloads\CleanArchAPI_Final_v3\CleanArchFinal\CleanArchAPI.Data\obj\Debug\net8.0\CleanArchAPI.Data.dll
+C:\Users\phData\Downloads\CleanArchAPI_Final_v3\CleanArchFinal\CleanArchAPI.Data\obj\Debug\net8.0\refint\CleanArchAPI.Data.dll
+C:\Users\phData\Downloads\CleanArchAPI_Final_v3\CleanArchFinal\CleanArchAPI.Data\obj\Debug\net8.0\CleanArchAPI.Data.pdb
+C:\Users\phData\Downloads\CleanArchAPI_Final_v3\CleanArchFinal\CleanArchAPI.Data\obj\Debug\net8.0\ref\CleanArchAPI.Data.dll
