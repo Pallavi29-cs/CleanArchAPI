@@ -1,0 +1,17 @@
+C:\Users\phData\Downloads\CleanArchAPI_Final_v3\CleanArchFinal\CleanArchAPI.Store\bin\Debug\net8.0\CleanArchAPI.Store.deps.json
+C:\Users\phData\Downloads\CleanArchAPI_Final_v3\CleanArchFinal\CleanArchAPI.Store\bin\Debug\net8.0\CleanArchAPI.Store.dll
+C:\Users\phData\Downloads\CleanArchAPI_Final_v3\CleanArchFinal\CleanArchAPI.Store\bin\Debug\net8.0\CleanArchAPI.Store.pdb
+C:\Users\phData\Downloads\CleanArchAPI_Final_v3\CleanArchFinal\CleanArchAPI.Store\bin\Debug\net8.0\CleanArchAPI.Common.dll
+C:\Users\phData\Downloads\CleanArchAPI_Final_v3\CleanArchFinal\CleanArchAPI.Store\bin\Debug\net8.0\CleanArchAPI.Data.dll
+C:\Users\phData\Downloads\CleanArchAPI_Final_v3\CleanArchFinal\CleanArchAPI.Store\bin\Debug\net8.0\CleanArchAPI.Common.pdb
+C:\Users\phData\Downloads\CleanArchAPI_Final_v3\CleanArchFinal\CleanArchAPI.Store\bin\Debug\net8.0\CleanArchAPI.Data.pdb
+C:\Users\phData\Downloads\CleanArchAPI_Final_v3\CleanArchFinal\CleanArchAPI.Store\obj\Debug\net8.0\CleanArchAPI.Store.csproj.AssemblyReference.cache
+C:\Users\phData\Downloads\CleanArchAPI_Final_v3\CleanArchFinal\CleanArchAPI.Store\obj\Debug\net8.0\CleanArchAPI.Store.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\phData\Downloads\CleanArchAPI_Final_v3\CleanArchFinal\CleanArchAPI.Store\obj\Debug\net8.0\CleanArchAPI.Store.AssemblyInfoInputs.cache
+C:\Users\phData\Downloads\CleanArchAPI_Final_v3\CleanArchFinal\CleanArchAPI.Store\obj\Debug\net8.0\CleanArchAPI.Store.AssemblyInfo.cs
+C:\Users\phData\Downloads\CleanArchAPI_Final_v3\CleanArchFinal\CleanArchAPI.Store\obj\Debug\net8.0\CleanArchAPI.Store.csproj.CoreCompileInputs.cache
+C:\Users\phData\Downloads\CleanArchAPI_Final_v3\CleanArchFinal\CleanArchAPI.Store\obj\Debug\net8.0\CleanArc.6F1F4371.Up2Date
+C:\Users\phData\Downloads\CleanArchAPI_Final_v3\CleanArchFinal\CleanArchAPI.Store\obj\Debug\net8.0\CleanArchAPI.Store.dll
+C:\Users\phData\Downloads\CleanArchAPI_Final_v3\CleanArchFinal\CleanArchAPI.Store\obj\Debug\net8.0\refint\CleanArchAPI.Store.dll
+C:\Users\phData\Downloads\CleanArchAPI_Final_v3\CleanArchFinal\CleanArchAPI.Store\obj\Debug\net8.0\CleanArchAPI.Store.pdb
+C:\Users\phData\Downloads\CleanArchAPI_Final_v3\CleanArchFinal\CleanArchAPI.Store\obj\Debug\net8.0\ref\CleanArchAPI.Store.dll
