@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "0KPmIR47m/E=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\phData\\Downloads\\CleanArchAPI_Final_v3\\CleanArchFinal\\CleanArchAPI.Common\\CleanArchAPI.Common.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\phData\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

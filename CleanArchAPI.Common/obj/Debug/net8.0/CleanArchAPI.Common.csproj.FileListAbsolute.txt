@@ -1,0 +1,11 @@
+C:\Users\phData\Downloads\CleanArchAPI_Final_v3\CleanArchFinal\CleanArchAPI.Common\bin\Debug\net8.0\CleanArchAPI.Common.deps.json
+C:\Users\phData\Downloads\CleanArchAPI_Final_v3\CleanArchFinal\CleanArchAPI.Common\bin\Debug\net8.0\CleanArchAPI.Common.dll
+C:\Users\phData\Downloads\CleanArchAPI_Final_v3\CleanArchFinal\CleanArchAPI.Common\bin\Debug\net8.0\CleanArchAPI.Common.pdb
+C:\Users\phData\Downloads\CleanArchAPI_Final_v3\CleanArchFinal\CleanArchAPI.Common\obj\Debug\net8.0\CleanArchAPI.Common.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\phData\Downloads\CleanArchAPI_Final_v3\CleanArchFinal\CleanArchAPI.Common\obj\Debug\net8.0\CleanArchAPI.Common.AssemblyInfoInputs.cache
+C:\Users\phData\Downloads\CleanArchAPI_Final_v3\CleanArchFinal\CleanArchAPI.Common\obj\Debug\net8.0\CleanArchAPI.Common.AssemblyInfo.cs
+C:\Users\phData\Downloads\CleanArchAPI_Final_v3\CleanArchFinal\CleanArchAPI.Common\obj\Debug\net8.0\CleanArchAPI.Common.csproj.CoreCompileInputs.cache
+C:\Users\phData\Downloads\CleanArchAPI_Final_v3\CleanArchFinal\CleanArchAPI.Common\obj\Debug\net8.0\CleanArchAPI.Common.dll
+C:\Users\phData\Downloads\CleanArchAPI_Final_v3\CleanArchFinal\CleanArchAPI.Common\obj\Debug\net8.0\refint\CleanArchAPI.Common.dll
+C:\Users\phData\Downloads\CleanArchAPI_Final_v3\CleanArchFinal\CleanArchAPI.Common\obj\Debug\net8.0\CleanArchAPI.Common.pdb
+C:\Users\phData\Downloads\CleanArchAPI_Final_v3\CleanArchFinal\CleanArchAPI.Common\obj\Debug\net8.0\ref\CleanArchAPI.Common.dll
